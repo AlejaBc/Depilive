@@ -1,0 +1,118 @@
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.conteiner{
+  position: absolute;
+  display: inline-block;
+  top: 20px;
+  left: 91px;
+  
+  border-top: #ed2560 6px solid;
+  border-bottom: #ed2560 6px solid;
+  border-left: medium #ed2560;
+  
+}
+.conteiner::before{
+  position: absolute;
+  width: 5px;
+  height: 55px;
+  background-color: #ed2560;
+  content: ' ';
+  }
+  .conteiner::before{
+    bottom: -5px;
+    left: -2px;
+    }
+
+  .conteiner::after{
+      position: absolute;
+      width: 5px;
+      height: 55px;
+      background-color: #ed2560;
+      content: ' ';
+    }
+      .conteiner::after{
+        top: -7px;
+        right: -3px;
+        }
+
+.top {
+  height: 530px;
+  width: 1440px;
+  background-image: url(mg/Captura.JPG);
+  color: white;
+  background-size: cover;
+  background-position: center;
+}
+.ger {
+  height: 45px;
+}
+.tit {
+  text-align: center;
+  position: relative;
+  font-size: 30;
+}
+.circulo{
+  width: 30px;
+  height: 30px;
+  background-color: #ed2560;
+  border-radius: 100%;
+  margin-left: 540px;
+  margin-top: 65px;
+  position: absolute;
+  display: inline-block;
+  opacity: 0.3;
+
+}
+.card {
+  width: 346px;
+  height: 549px;
+  text-align: center;
+  box-shadow: -4px 6px 20px rgba(231, 229, 229, 0.87),
+    3px 6px 6px rgba(231, 229, 229, 0.87),
+    -4px -6px 20px rgba(231, 229, 229, 0.87);
+  border: 0;
+}
+.card-img-top {
+  width: auto;
+  margin-top: 22px;
+  margin-left: 22px;
+  margin-right: 22px;
+
+  background-position: center;
+}
+.btn {
+  width: 135px;
+  height: 39px;
+  background-color: #ed2560;
+  color: white;
+}
+.pie {
+  background-color: #ed2560;
+  height: 160px;
+  align-items: unset;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.pie h5 {
+  color: white;
+}
+
+.pie h2 {
+  color: white;
+}
+
+.pie h10 {
+  font-size: 10px;
+  color: white;
+  text-align: center;
+}
+.list-inline {
+  background-color: transparent;
+}
+
+.col{
+  color: white;
+}
